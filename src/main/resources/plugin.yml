@@ -1,0 +1,11 @@
+name: miniserver
+version: '${project.version}'
+main: xyz.xynsia.miniserver.Main
+api-version: 1.19
+commands:
+  mt:
+    description: Chat for Manager
+    usage: /mt [text]
+  heal:
+    description: set Player's HP and Food level to Max
+    usage: /heal
